@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="quikdocos-embed-verify" content="bfcfe1ff9b207cc53c3eab606eec937c">
+<title>Sunrise Family Clinic (test page)</title>
+<style>
+  :root { --ink:#1f2a30; --muted:#5b6b73; --line:#e3e8ea; --bg:#f6f8f8; --accent:#0f6b5c; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: Georgia, "Times New Roman", serif; color:var(--ink); background:var(--bg); }
+  .test { background:#fff4d6; border-bottom:1px solid #f0d98a; padding:10px 16px; font:14px/1.4 system-ui, sans-serif; text-align:center; }
+  header { background:#fff; border-bottom:1px solid var(--line); padding:18px 16px; }
+  header .wrap, main { max-width:960px; margin:0 auto; }
+  header h1 { margin:0; font-size:24px; color:var(--accent); }
+  header p { margin:4px 0 0; color:var(--muted); font:14px system-ui, sans-serif; }
+  nav { margin-top:10px; font:14px system-ui, sans-serif; }
+  nav a { color:var(--accent); margin-right:16px; }
+  main { padding:24px 16px 48px; }
+  section { background:#fff; border:1px solid var(--line); border-radius:10px; padding:20px; margin-bottom:24px; }
+  h2 { margin:0 0 6px; font-size:20px; }
+  .lead { margin:0 0 16px; color:var(--muted); font:15px/1.5 system-ui, sans-serif; }
+  footer { text-align:center; color:var(--muted); font:13px system-ui, sans-serif; padding:24px 16px; }
+</style>
+</head>
+<body>
+  <div class="test"><strong>Test page.</strong> Sunrise Family Clinic is not a real clinic. This page exists only to test the QuikDocOS booking widget on a staging server.</div>
+  <header><div class="wrap">
+    <h1>Sunrise Family Clinic</h1>
+    <p>A made-up clinic website, standing in for a doctor's own site</p>
+    <nav><a href="#book">Book a consult</a><a href="#webinars">Health talks</a></nav>
+  </div></header>
+  <main>
+    <section id="book">
+      <h2>Book a consult</h2>
+      <p class="lead">Below is the QuikDocOS booking widget, shown inside this site.</p>
+      <div id="quikdocos-booking"></div>
+      <script src="https://docos-staging.quiklabz.com/embed/v1.js" data-doctor="aditi-desai-d84879"></script>
+    </section>
+    <section id="webinars">
+      <h2>Health talks</h2>
+      <p class="lead">Below is the QuikDocOS webinars widget.</p>
+      <div id="quikdocos-webinars"></div>
+      <script src="https://docos-staging.quiklabz.com/embed/v1.js" data-doctor="aditi-desai-d84879" data-widget="webinars"></script>
+    </section>
+  </main>
+  <footer>Test page. Not a real clinic, no real doctor.</footer>
+</body>
+</html>
